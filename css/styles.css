@@ -23,7 +23,7 @@ header .topbar{
 
 header{
     border-bottom: 4px solid #255ee9;
-    background-image: url('img\jumbo.png');
+    background-image: url('../img/jumbo.png');
 }
 
 
@@ -103,6 +103,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center ;
+    background-image: url('../img/jumbo.png');
 }
 
 .bigger-box{
