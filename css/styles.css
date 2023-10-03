@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 /* CSS RESET*/
 
@@ -12,7 +13,7 @@
 /*---------PRIMA SEZIONE----------
 ----------------------------------*/
 header .topbar{
-    background-color: #add8e6;
+    background-color: #255ee9;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,12 +22,13 @@ header .topbar{
 
 
 header{
-    border-bottom: 4px solid #add8e6;
+    border-bottom: 4px solid #255ee9;
+    background-image: url('img\jumbo.png');
 }
 
 
 .box{
-    background-color: #daa520;
+    background-color: #255ee9;
     width: 1250px;
     height: 50px;
     margin-top: 20px ;
@@ -37,26 +39,60 @@ header{
     align-items: center;
 } 
 
+/* 
 .flex-item{
     border: dashed black;
     text-align: center;
     padding-top: 15px;
     height: 50px;
-}
+} */
 
 .flex-item.right{
+    text-align: start;
+    padding-top: 6px;
+    padding-left: 5px;
     width: 20%;   
 }  
 .flex-item.left{
+    color: black;
+    text-align: end;
+    padding-right: 25px;
     width: 20%;   
 }  
 
 .flex-item.center{
-    width: 60%;   
-}   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 13px;   
+}
+.link{ 
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.link.button{
+    color: black;
+    background-color: white;
+    height: 35px;
+    width: 70px;
+    padding-bottom: 6px;
+    padding-top: 9px;
+    padding-right: 70px;
+    padding-left: 23px;
+    border-radius: 45px;
+
+    display: inline-block;
+
+}
+   
    
 .jumbotron{
-    background-color: #00008b ;
+    background-color: #255ee9 ;
     display: flex;
     justify-content: center;
     width: 100%;
