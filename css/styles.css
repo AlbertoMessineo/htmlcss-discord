@@ -156,6 +156,18 @@ p{
     justify-content: center;
     align-items: center;
 }
+ p.eventext{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 0;
+
+}
+
+h3{
+    font-size: 45px;
+}
+
 .container1{
     display: flex;
     width: 1250px;
@@ -165,19 +177,15 @@ p{
 
 .box1{  
     width: 60%;
-    /* DEBUG */
-    height: 520px; 
-    background-color:#1e90ff ;
-    border: dashed black;
-    /* END DEBUG */
+    padding-left: 90px;
+    padding-top: 60px;
 }
 .box2{ 
-    width: 40%;
-     /*DEBUG*/
-    height: 520px;
-    background-color:#ffc0cb ;
-    border: dashed black;
-     /*END DEBUG*/
+    width: 35%;
+    text-align: start;
+    padding-right: 40px;
+    padding-top: 96px;
+    padding-left: 15px;
 }
 
 /*-------SECONDA SEZIONE----------
@@ -202,20 +210,7 @@ p{
 }
 
 
-.box1{  
-    width: 60%;
-     /*DEBUG*/
-    height: 520px;
-    background-color:#1e90ff ;
-    border: dashed black;
-}
-.box2{ 
-    width: 40%;
-     /*DEBUG*/
-    height: 520px;
-    background-color:#ffc0cb ;
-    border: dashed black;
-}
+
 
 /*-------TERZA SEZIONE-------------
 ----------------------------------*/
@@ -223,21 +218,9 @@ p{
 /*-------QUARTA SEZIONE-------------
 ----------------------------------*/
 
-.box1{  
-    width: 60%;
-     /*DEBUG*/
-    height: 520px;
-    background-color:#1e90ff ;
-    border: dashed black;
-}
-.box2{ 
-    width: 40%;
-     /*DEBUG*/
-    height: 520px;
-    background-color:#ffc0cb ;
-    border: dashed black;
 
-}
+   
+
 
 /*-------QUARTA SEZIONE-------------
 ----------------------------------*/
