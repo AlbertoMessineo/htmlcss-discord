@@ -161,7 +161,6 @@ p{
     text-align: left;
     font-size: 20px;
     padding: 20px 0;
-
 }
 
 h3{
@@ -237,16 +236,17 @@ h3{
     align-items: center;
 }
 .box3{
-     /*DEBUG*/
-    background-color: #228b22;
-    width: 1250px;
-    height: 925px;
-    border: dashed black;
-     /*END DEBUG*/
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 
 }
+.odd-p{
+    width: 950px;
+    color: #23272a;
+
+}
+
 /*-------QUINTA SEZIONE-------------
 ----------------------------------*/
 
