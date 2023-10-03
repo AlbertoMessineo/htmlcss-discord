@@ -239,12 +239,30 @@ h3{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    padding-bottom: 40px;
 
 }
 .odd-p{
     width: 950px;
     color: #23272a;
 
+}
+.last-image{
+    padding-bottom: 20px;
+}
+
+.end{
+    color: #23272a;
+    padding-bottom: 40px;
+    font-size: 28px;
+    background-image: url(../img/stars.svg);
+    background-size: auto;
+
+}
+
+.last{
+    color: aliceblue;
+    background-color: #7289da;
 }
 
 /*-------QUINTA SEZIONE-------------
@@ -269,25 +287,69 @@ footer{
     width: 1250px;
     margin-top: 30px;
     margin-bottom: 40px;
+    padding: 30px;
 }
+
+
 .big-col{
-     /*DEBUG*/
-    background-color: #f08080;
+    text-align: left;
+    background-color: #23272a;
     height: 600px;
-    width: 40%;
-    border: dashed white;
+    width: 25%;
+}
+   
+
+h4{
+    font-size: 36px;
+    color: #7289da;
+    padding: 10px 0 ;
+}
+#bandiera{
+    height: 16px;
+}
+.lang{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+}
+.logos{
+    text-align: left;
+    color: aliceblue;
+    padding: 8px;
+}
+i{
+    margin-left:4px ;
+    margin-right: 4px;
+}
+
+.lil-columns{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+ 
      /*END DEBUG*/
-    
-    
 }
 .col{
-     /*DEBUG*/
-    background-color: #20b2aa;
-    height: 600px;
-    width: 15%;
-    border: dashed white;
-     /*END DEBUG*/
+    width: calc(100% / 4);
 }
+ul{
+   list-style: none;
+   line-height: 3;
+   padding: 0 30px;
+
+}
+h5{
+    color: #7289da;
+    font-size: 18px;
+}
+li{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+
+
 /*--------FOOTER---------------*/
 
 footer2{
@@ -311,7 +373,6 @@ footer2{
     justify-content: space-between;
     align-items: center;
      /*DEBUG*/
-    background-color: #7fffd4;
     height: 110px ;
      /*END DEBUG*/
     width: 1250px;
@@ -319,7 +380,7 @@ footer2{
     margin-bottom: 20px;
 
 }
-button{
-    color: #ffb6c1;
+.footer{
+    background-color: #7289da;
+    color: aliceblue;
 }
-    
