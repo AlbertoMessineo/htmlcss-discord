@@ -21,11 +21,6 @@ header .topbar{
 }
 
 
-header{
-    border-bottom: 4px solid #255ee9;
-    background-image: url('../img/jumbo.png');
-}
-
 
 .box{
     background-color: #255ee9;
@@ -96,24 +91,38 @@ header{
     display: flex;
     justify-content: center;
     width: 100%;
-     /*DEBUG*/
-    height: 520px ;
-     /*DEBUG*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center ;
     background-image: url('../img/jumbo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bigger-box{
-    /*DEBUG*/
-    background-color: #ee82ee;
-    width: 950px;
-    height: 420px;
-    border: dashed black;
-     /*END DEBUG*/
+    padding-top: 100px;
+    width: 700px;
+    height: 537px;
+     
 }
+
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 24px;
+}
+
+
 /*---------PRIMA SEZIONE----------
 ----------------------------------*/
 
