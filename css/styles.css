@@ -8,6 +8,8 @@
 }
 /* CSS RESET*/
 
+/* #HEADER */
+
 
 
 /*---------PRIMA SEZIONE----------
@@ -143,8 +145,14 @@ p{
 }
 
 
+
 /*---------PRIMA SEZIONE----------
 ----------------------------------*/
+
+/* #ENDHEADER*/
+
+/* MAIN*/
+
 
 /*-------SECONDA SEZIONE----------
 ----------------------------------*/
@@ -257,6 +265,8 @@ h3{
     font-size: 28px;
     background-image: url(../img/stars.svg);
     background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -267,6 +277,11 @@ h3{
 
 /*-------QUINTA SEZIONE-------------
 ----------------------------------*/
+
+/*ENDMAIN */
+
+/*FOOTER*/
+
 
 /*--------FOOTER---------------*/
 
@@ -328,7 +343,7 @@ i{
     padding-top: 20px;
 
  
-     /*END DEBUG*/
+    
 }
 .col{
     width: calc(100% / 4);
@@ -384,3 +399,5 @@ footer2{
     background-color: #7289da;
     color: aliceblue;
 }
+
+/* ENDFOOTER */
